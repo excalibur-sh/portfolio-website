@@ -1,0 +1,499 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #20242d;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.1rem;
+  scroll-behavior: smooth;
+}
+
+section {
+  margin: 5rem 10rem;
+  padding-top: 4vh;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.hr {
+  width: 70%;
+  margin: 0 auto;
+  height: 0.2rem;
+  background-color: #01eefe;
+  border: none;
+  border-radius: 5rem;
+}
+
+.footer .footer-text {
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+
+#home {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 5rem;
+}
+
+/* ((((((((((((((((((((((((((((((((((((((((())))))))))))))))))))))))))))))))))))))))) */
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1.5rem;
+}
+
+.nav .right h1 {
+  cursor: pointer;
+  border-bottom: 5px solid #01eefe;
+  font-size: 2.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav .right h1 .nav-span {
+  color: crimson;
+}
+
+.nav .center ul li {
+  list-style: none;
+  display: inline;
+  padding: 1.2rem;
+}
+
+.nav .center ul li a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.nav .center ul li a:hover {
+  color: #01eefe;
+  text-decoration: underline;
+  text-underline-offset: .5rem;
+}
+
+.nav .left .resume-btn {
+  padding: .7rem;
+  background: transparent;
+  color: white;
+  border-radius: 5rem;
+  border: 2px solid #00eeff;
+  font-size: 1rem;
+  width: 7rem;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.nav .left .resume-btn:hover {
+  background: none;
+  border: 0.14rem solid #01eefe;
+  color: black;
+  background-color: #00eeff;
+}
+
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] */
+
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home-content .right .text .first-text {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.home-content .right .text .second-text {
+  font-size: 4.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.home-content .right .text .third-text {
+  font-size: 1.7rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.home-content .right .text .third-text-span {
+  color: #01eefe;
+}
+
+.home-content .right .text .para {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  width: 45rem;
+}
+
+.home-content .right .icons {
+  margin: 3rem 0rem;
+}
+
+.home-content .right .icons a {
+  text-decoration: none;
+}
+
+.home-content .right .icons i {
+  font-size: 1.7rem;
+  color: #01eefe;
+  background: none;
+  border: 0.15rem solid #01eefe;
+  border-radius: 5rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.home-content .right .icons i:hover {
+  background-color: #01eefe;
+  color: black;
+}
+
+.home-content .left .main-img {
+  width: 32rem;
+  height: 30rem;
+  overflow-clip-margin: content-box;
+  border-radius: 50%;
+  overflow: clip;
+  transition: 0.3s ease;
+}
+
+.home-content .left .main-img:hover {
+  transform: scale(1.05);
+}
+
+/* ////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+#about {
+  overflow: hidden;
+  position: relative;
+}
+
+.about-content .about-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-content .cards {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-content .cards .container {
+  border: 2px solid white;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 1.5rem;
+  height: 11rem;
+  width: 23rem;
+}
+
+.about-content .cards .container i {
+  font-size: 1.8rem;
+}
+
+.about-content .cards .container h2 {
+  margin-top: .7rem;
+  text-decoration: underline;
+  text-underline-offset: .5rem;
+  font-size: 1.3rem;
+}
+
+.about-content .cards .container p {
+  font-size: .9rem;
+}
+
+.about-content .cards .container .para {
+  margin-top: .5rem;
+}
+
+.about-content .about-right .about-img {
+  height: 35rem;
+  border-radius: 5rem;
+}
+
+.about-content .about-left .about-text .about-head {
+  font-size: 4rem;
+  color: #01eefe;
+  text-decoration: underline;
+  text-underline-offset: .5rem;
+}
+
+.about-content .about-left .about-text .about-para {
+  width: 47rem;
+  margin: 1rem 0rem;
+  letter-spacing: .1rem;
+}
+
+
+/* [[[[[[[[[[[[[[]]]]]]]]]]]]]] */
+
+.about-education {
+  position: relative;
+  margin: 7rem 10rem;
+  cursor: default;
+}
+
+.about-education .edu-head {
+  text-align: center;
+  font-size: 3rem;
+  color: #01eefe;
+}
+
+.about-education .about-containers {
+  margin: 5rem auto;
+  width: 100%;
+}
+
+.about-education .about-containers .cards {
+  border-top: 0.1rem solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0rem;
+  padding: 1rem;
+}
+
+.about-education .about-containers .card-three {
+  border-bottom: 0.1rem solid white;
+  padding-bottom: 2rem;
+}
+
+.about-education .about-containers .cards .about-left h3 {
+  color: #01eefe;
+}
+
+.about-education .about-containers .cards .about-right .period {
+  font-weight: 500;
+}
+
+/* [[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]] */
+
+.skill-content .skill-head {
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+  text-underline-offset: .5rem;
+  color: #00eeff;
+}
+
+.skill-content .skill-card {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.skill-content .skill-card .skill-container {
+  border: 2px solid white;
+  border-radius: 2rem;
+  height: 18rem;
+  width: 35rem;
+}
+
+.skill-content .skill-card .skill-container-one {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.skill-content .skill-card .skill-container-one h1 {
+  text-align: center;
+  font-size: 1.7rem;
+  color: #00eeff;
+  text-decoration: underline;
+  text-underline-offset: .5rem;
+  margin-bottom: 2rem;
+}
+
+.skill-content .skill-card .skill-container-one skill-icon {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 2.5rem;
+}
+
+.skill-content .skill-card .skill-container-one .skill-i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skill-content .skill-card .skill-container-one i {
+  font-size: 1.7rem;
+  color: #00eeff;
+}
+
+
+
+/* [[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]] */
+
+.project-content .project-head {
+  font-size: 3.5rem;
+  text-align: center;
+  color: #00eeff;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+.project-content .project-card {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+.project-content .project-card .project-container {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.project-content .project-card .project-container .project-detail {
+  display: flex;
+}
+
+.project-content .project-card .project-container .project-detail .project-img img {
+  width: 20rem;
+  border-radius: 1rem;
+}
+
+.project-content .project-card .project-container .project-sub-detail {
+  margin: 0rem 3rem;
+}
+
+.project-content .project-card .project-container .project-sub-detail h2 {
+  margin-bottom: .7rem;
+  text-decoration: underline;
+  text-underline-offset: .5rem;
+}
+
+.project-content .project-card .project-container .project-sub-detail li {
+  margin-bottom: .5rem;
+  font-size: .9rem;
+
+}
+
+.project-content .project-card .project-container .project-btn {
+  display: flex;
+  margin-top: 1rem;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.project-content .project-card .project-container .project-btn button {
+  cursor: pointer;
+  font-size: .9em;
+  padding: .8rem;
+  background-color: #00eeff;
+  border-radius: 5rem;
+  color: black;
+  transition: 0.3s ease
+}
+
+.project-content .project-card .project-container .project-btn button:hover {
+  background-color: #00eeff;
+  color: black;
+}
+
+.project-content .project-card .project-container .project-btn .view-btn {
+  cursor: pointer;
+  font-size: .9em;
+  padding: .8rem;
+  background: none;
+  border: 2px solid #00eeff;
+  color: white;
+  border-radius: 5rem;
+  transition: 0.3s ease;
+}
+
+.project-content .project-card .project-container .project-btn .view-btn:hover {
+  background-color: #00eeff;
+  color: black
+}
+
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] */
+
+#contact-me {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-content h1 {
+  margin-bottom: 7rem;
+  text-align: center;
+  color: #00eeff;
+  font-size: 3.5rem;
+  text-decoration: underline;
+  text-underline-offset: .5rem;
+}
+
+.contact-content .contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42rem;
+  height: 5rem;
+  border-radius: 2rem;
+  border: black 0.1rem solid;
+  border-color: gray;
+  margin: 5rem auto;
+  padding: 0.2rem;
+}
+
+.contact-content .contact-box .mail {
+  margin-right: .5rem;
+  font-size: 1.4rem;
+}
+
+.contact-content .contact-box h3 {
+  margin-right: 1.5rem;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.contact-content .contact-box h3:hover {
+  text-decoration: underline;
+  color: gray;
+  text-underline-offset: .9rem;
+}
+
+.contact-content .contact-box .phone {
+  margin-right: .2rem;
+  font-size: 1.5rem;
+}
+
+.contact-content .contact-box p {
+  margin-right: .2rem;
+  font-size: 1.2rem;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+
+.contact-content .contact-box p:hover {
+  text-decoration: underline;
+  color: gray;
+  text-underline-offset: .9rem;
+}
